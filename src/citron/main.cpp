@@ -37,7 +37,6 @@
 
 #include <boost/container/flat_set.hpp>
 
-// VFS includes must be before glad as they will conflict with Windows file api, which uses defines.
 #include "applets/qt_amiibo_settings.h"
 #include "applets/qt_controller.h"
 #include "applets/qt_error.h"

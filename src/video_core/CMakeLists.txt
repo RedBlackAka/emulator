@@ -273,7 +273,7 @@ add_library(video_core STATIC
 )
 
 target_link_libraries(video_core PUBLIC common core)
-target_link_libraries(video_core PUBLIC glad shader_recompiler stb bc_decoder)
+target_link_libraries(video_core PUBLIC shader_recompiler stb bc_decoder)
 
 if (CITRON_USE_BUNDLED_FFMPEG AND
     (CITRON_CLANGCL OR CITRON_CLANGTRON OR NOT (WIN32 OR ANDROID)))

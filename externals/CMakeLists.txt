@@ -53,9 +53,6 @@ if (MSVC)
     add_subdirectory(getopt)
 endif()
 
-# Glad
-add_subdirectory(glad)
-
 # mbedtls removed: replaced by OpenSSL. Submodule kept on disk for
 # history but no longer built. CMake no longer adds it.
 

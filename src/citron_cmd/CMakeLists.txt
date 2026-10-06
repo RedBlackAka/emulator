@@ -95,7 +95,6 @@ else()
     endif()
 endif()
 
-target_link_libraries(citron-cmd PRIVATE glad)
 if (MSVC)
     target_link_libraries(citron-cmd PRIVATE getopt)
 endif()

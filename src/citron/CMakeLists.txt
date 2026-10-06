@@ -555,7 +555,7 @@ else()
     endif()
 endif()
 
-target_link_libraries(citron PRIVATE Boost::headers glad nlohmann_json::nlohmann_json Qt6::Widgets Qt6::Network Qt6::Svg)
+target_link_libraries(citron PRIVATE Boost::headers nlohmann_json::nlohmann_json Qt6::Widgets Qt6::Network Qt6::Svg)
 target_link_libraries(citron PRIVATE ${PLATFORM_LIBRARIES} Threads::Threads)
 
 # In-process ZIP extract. Without this, firmware install shells out to
